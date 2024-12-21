@@ -2,4 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, indigo, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.445);
 }
